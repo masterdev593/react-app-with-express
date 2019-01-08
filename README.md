@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://desarrollowebnodejs.github.io/">
-    <img alt="fizzvr" src="https://github.com/desarrollowebnodejs/desarrollowebnodejs.github.io/blob/master/tile-wide.png?raw=true" width="500">
+    <img alt="desarrollo web nodejs" src="https://img9.uploadhouse.com/fileuploads/26959/2695971975bcaa663cd5794358e8f1643840cca6.jpeg" width="500">
   </a>
 </p>
 
 <p align="center">
-	Desarrollo Web NodeJS
+	<h3 align="center">Desarrollo Web NodeJS</h3>
 </p>
 
 <p align="center">
