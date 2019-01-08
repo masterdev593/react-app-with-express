@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "API-SEVER-APP": {
+    "name": "API-SEVER-SERP",
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/api-app",
+    "database": "api-app",
+    "connector": "mongodb"
+  }
+}

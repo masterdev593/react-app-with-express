@@ -1,0 +1,52 @@
+{
+  "initial:before": {
+    "loopback#favicon": {
+      "params": "$!../build/favicon.ico"
+    },
+    "loopback#static": {
+      "params": [
+        "$!../build",
+        {
+          "maxAge": "86400000"
+        }
+      ]
+    }
+  },
+  "initial": {
+    "compression": {},
+    "morgan": {
+      "params": ":status :method :response-time ms - :url"
+    }
+  },
+  "session": {
+    "./middlewares/sessions.js": {}
+  },
+  "parse": {
+    "body-parser#json": {},
+    "body-parser#urlencoded": {
+      "params": {
+        "extended": true
+      }
+    },
+    "method-override": {},
+    "./middlewares/cookie-parser": {}
+  },
+  "routes:before": {
+    "express-flash": {},
+    "helmet#xssFilter": {},
+    "helmet#noSniff": {},
+    "helmet#frameguard": {}
+  },
+  "files": {},
+  "final": {
+    "loopback#urlNotFound": {}
+  },
+  "final:after": {
+    "strong-error-handler": {
+      "params": {
+        "debug": true,
+        "log": true
+      }
+    }
+  }
+}
